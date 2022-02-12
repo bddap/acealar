@@ -76,7 +76,6 @@ fn main() -> Result<(), Box<dyn Error>> {
         let mut frame = frame;
 
         for bbox in iter_bboxen(&bbox_res, &prob_res) {
-            dbg!(bbox);
             draw_filled_rect_mut(
                 &mut frame,
                 Rect::at(bbox.x1 as i32, bbox.y1 as i32)

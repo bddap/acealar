@@ -9,6 +9,12 @@ apt-get install libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev \
     gstreamer1.0-libav libgstrtspserver-1.0-dev libges-1.0-dev
 ```
 
+## Msc.
+
+https://cetra3.github.io/blog/face-detection-with-tensorflow-rust/
+https://docs.rs/nokhwa/latest/nokhwa/
+https://docs.rs/show-image/latest/show_image/
+
 ## License
 
 Licensed under either of
