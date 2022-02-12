@@ -1,0 +1,14 @@
+[package]
+name = "acealar"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+image = "0.23.0"
+imageproc = "0.22.0"
+mtcnn = {version = "0.1.0", git = "https://github.com/cetra3/mtcnn", rev = "59783c80b73ec0e3eb2f66f2c2062d5d3ba746c0" }
+nokhwa = { version = "0.9.4", features = ["input-gst"] }
+show-image = "0.10.1"
+tensorflow = { version = "0.17.0" }
